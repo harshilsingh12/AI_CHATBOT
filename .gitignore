@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java build
+/target/
+*.class
+
+# Maven logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Node modules
+/frontend/node_modules/
+/frontend/build/
+
+# npm
+package-lock.json
+
+# environment
+.env
+
+# Spring properties containing secrets
+backend/src/main/resources/application.properties
+
+# frontend coverage
+/frontend/coverage/
+
+# misc
+*.tmp
+*.bak
+
+# PostgreSQL
+**/pgdata/
