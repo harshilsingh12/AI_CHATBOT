@@ -2,8 +2,11 @@ C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\service\C
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\entity\Document.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\dto\ChatRequest.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\repository\ChatMessageRepository.java
+C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\service\ChromaService.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\config\JwtAuthFilter.java
+C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\entity\DocumentChunk.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\config\JwtUtil.java
+C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\service\EmbeddingService.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\config\SecurityConfig.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\controller\AuthController.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\dto\ChatResponse.java
@@ -16,5 +19,6 @@ C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\dto\AuthR
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\ChatbotApplication.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\controller\ChatController.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\dto\AuthRequest.java
+C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\repository\DocumentChunkRepository.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\entity\User.java
 C:\Users\ASUS VivoBook\Desktop\GenAI\backend\src\main\java\com\chatbot\service\AuthService.java

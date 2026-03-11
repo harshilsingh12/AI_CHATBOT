@@ -52,13 +52,15 @@ public class ChatService {
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.set("Authorization", "Bearer " + apiKey);
         
-        // Get document context for RAG
+        // Get relevant document context using semantic search
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
-        String documentContext = documentService.getDocumentContext(username);
+        String documentContext = documentService.getRelevantContext(username, message);
         
         String userMessage = message;
         if (documentContext != null) {
-            userMessage = documentContext + "\n\nUser Question: " + message + "\n\nPlease answer based on the provided document context.";
+            userMessage = documentContext + "\n\nUser Question: " + message + "\n\nPlease answer based on the provided context in 117 words or less.";
+        } else {
+            userMessage = message + "\n\nPlease provide a concise answer in 117 words or less.";
         }
         
         Map<String, Object> body = new HashMap<>();

@@ -1,49 +1,65 @@
-# OS files
-.DS_Store
-Thumbs.db
-
-# Java build
-/target/
+# Java
 *.class
-
-# Maven logs
+*.jar
+*.war
+*.ear
+target/
 *.log
 
-# IntelliJ IDEA
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
 .idea/
 *.iml
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# VS Code
 .vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+
+# ChromaDB
+chroma_data/
+*.db
+
+# Sensitive files
+application.properties
+*.env
+
+# OS
+Thumbs.db
+.DS_Store
 
 # Logs
-logs/
 *.log
+logs/
 
-# Node modules
-/frontend/node_modules/
-/frontend/build/
-
-# npm
-package-lock.json
-
-# environment
-.env
-
-# Spring properties containing secrets
-backend/src/main/resources/application.properties
-
-# frontend coverage
-/frontend/coverage/
-
-# misc
+# Temporary files
 *.tmp
+*.temp
 *.bak
-
-# PostgreSQL
-**/pgdata/
